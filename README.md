@@ -23,12 +23,12 @@
 - [📝 License](#license)
 
 
-# 📖 The Meal <a name="about-project"></a>
+# 📖 Maths with a bit of Magic <a name="about-project"></a>
 
-> In this project, a Web Application - MathMagic is built using React that performs general mathematical calculations and offer a host of other functionality. The webapp have 3 user interfaces.
+> In this project, a Web Application - magicmaths is built using React that performs general mathematical calculations and offer a host of other functionality. The webapp have 3 user interfaces.
 
-- A home page showing a list of meals items that you can "like."
-- A popup window with more data about the meal that you can use to comment on it.
+- ## Description - To Be Announced (TBA)
+
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
@@ -72,7 +72,7 @@
 
 ## 🚀 Project Details 
 
-- [Kanban Board](https://github.com/lukman155/Rosto/projects/1)
+- [Kanban Board](https://github.com/lukman155/magicmaths/projects/1)
 
 - Team      
         - [Lukman](https://github.com/lukman155)
@@ -80,7 +80,7 @@
      
 ## 🚀 Pull Request
 
-[Lukman](https://github.com/lukman155/Rosto/pull/29)
+[Lukman](https://github.com/lukman155/magicmaths/pull/29)
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -91,7 +91,7 @@ To get a local copy up and running follow these simple example steps.
 
 -Reach to following Github URL:
 ```
-https://github.com/lukman155/mathmagic.git
+https://github.com/lukman155/magicmaths.git
 
 ```
 
@@ -102,7 +102,7 @@ https://github.com/lukman155/mathmagic.git
 -Type git clone in the terminal, paste the URL you copied earlier, and press "enter" to create your local clone.
 
 ```
-$ git clone https://github.com/lukman155/mathmagic.git
+$ git clone https://github.com/lukman155/magicmaths.git
 ```
 
 # Install Dependencies(with following Command)
@@ -125,6 +125,7 @@ npm start
 In order to run this project you need:
 
 - [x] Basic Knowledge of **HTML**, **CSS**, & **JavaScript**.
+- [x] Basic knowledge of **React** syntax.
 - [x] Basic knowledge of **ES6** syntax.
 - [x] Basic knowledge of **Git**, **GitHub** &**Gitflow**.
 - [x] Basic knowledge of **Linters**.
@@ -138,9 +139,9 @@ Clone this repository to your desired folder:
 
     _cd PATH_
     
-    _git clone https://github.com/lukman155/Rosto.git
+    _git clone https://github.com/lukman155/magicmaths.git
    
-   _cd Rosto
+   _cd magicmaths
    
    _npm install_
       
@@ -205,7 +206,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/lukman155/mathmagic/issues).
+Feel free to check the [issues page](https://github.com/lukman155/magicmaths/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
