@@ -1,19 +1,9 @@
-import React from 'react';
+import React, { memo } from 'react';
 import Calculator from './components/Calculator';
 
-class App extends React.PureComponent {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <Calculator />
-      </div>
-    );
-  }
-}
+const App = memo(() => (
+  <Calculator />
+));
+App.displayName = 'App';
 
 export default App;
