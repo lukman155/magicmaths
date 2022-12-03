@@ -26,6 +26,6 @@ code {
     monospace;
 }
 
-div > div > div > *:hover {
+div > div > *:hover {
   border: 2px yellow solid;
 }
