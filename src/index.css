@@ -71,6 +71,15 @@ code {
     text-align: center;
   }
 
+  .cal-content {
+    display: flex;
+    margin-top: 2rem;
+  }
+  .cal.content {
+    display: block;
+    
+  }
+
   .calculator-container {
     padding: 1rem;
     margin: 0;
