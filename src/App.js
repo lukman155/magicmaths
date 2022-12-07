@@ -1,8 +1,15 @@
 import React, { memo } from 'react';
-import Calculator from './components/Calculator';
+import { Route, Routes } from 'react-router-dom';
+import Homepage from './components/Homepage';
+import Calpage from './components/Calpage';
+import Quotepage from './components/Quotepage';
 
 const App = memo(() => (
-  <Calculator />
+  <Routes>
+    <Route path="/quotepage" element={<Quotepage />} />
+    <Route path="/calpage" element={<Calpage />} />
+    <Route path="/" element={<Homepage />} />
+  </Routes>
 ));
 App.displayName = 'App';
 

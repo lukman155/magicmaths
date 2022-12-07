@@ -6,6 +6,8 @@ export const colors = {
   lightGray: '#c9c9c9',
   chrome: '#6e7781',
   lightgreen: 'lightgreen',
+  red: 'red',
+  ash: '#e6e6e6',
 };
 
 export const fonts = {
