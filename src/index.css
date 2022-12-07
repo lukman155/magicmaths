@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -14,6 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 780px;
 }
 
 code {
@@ -26,6 +27,84 @@ code {
     monospace;
 }
 
-div > div > *:hover {
-  border: 2px yellow solid;
+@media only screen and (min-width: 240px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 2rem;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+
+  li:hover {
+    color: rgb(0, 255, 0);
+    cursor: pointer;
+  }
+
+  .vertical-line {
+    border-left: 0.1rem solid rgb(75, 75, 75);
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2rem;
+    padding: 0;
+  }
+
+  .content > p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .cal-content {
+    display: flex;
+    margin-top: 2rem;
+  }
+
+  .cal.content {
+    display: block;
+  }
+
+  .calculator-container {
+    padding: 1rem;
+    margin: 0;
+    border-radius: 1rem;
+  }
+
+  .calculator-container > * {
+    border-radius: 2rem;
+    margin: 0.16rem;
+  }
+
+  .calculator-container > *:hover {
+    border: 2px yellow solid;
+    color: rgb(5, 202, 5);
+    cursor: pointer;
+  }
+
+  /* STYLES HERE */
+}
+
+@media only screen and (min-width: 700px) {
+  /* STYLES HERE */
+
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

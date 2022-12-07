@@ -14,7 +14,7 @@ function Calculator() {
   const { total, next } = state;
 
   return (
-    <CalculatorContainer>
+    <CalculatorContainer className="calculator-container">
       <Display>
         {next || total || 0}
       </Display>
@@ -50,7 +50,6 @@ const CalculatorContainer = styled.div`
   border: 1px solid ${colors.gray};
   width: fit-content;
   height: fit-content;
-  margin: 8rem auto;
 
 `;
 
@@ -72,6 +71,7 @@ const Clear = styled.div`
   border: 1px solid ${colors.gray};
   color: ${colors.black};
   grid-column: 1 / 1;
+  background: ${colors.ash};
 `;
 
 const PlusMinus = styled.div`
@@ -81,6 +81,7 @@ const PlusMinus = styled.div`
   border: 1px solid ${colors.gray};
   color:  ${colors.black} ;
   grid-column: 2 / 2;
+  background: ${colors.ash};
 `;
 
 const Percentage = styled.div`
@@ -90,6 +91,7 @@ const Percentage = styled.div`
   border: 1px solid ${colors.gray};
   color:  ${colors.black} ;
   grid-column: 3 / 3;
+  background: ${colors.ash};
 `;
 
 const Divide = styled.div`
