@@ -5,11 +5,11 @@ import Header from './Header';
 const Calpage = () => (
   <>
     <Header />
-    <div className='cal-content'>
-    <div className="content cal">
-      <p>Let&apos;s do some math!</p>
-    </div>
-    <Calculator />
+    <div className="cal-content">
+      <div className="content cal">
+        <p>Let&apos;s do some math!</p>
+      </div>
+      <Calculator />
     </div>
   </>
 );

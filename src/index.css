@@ -75,9 +75,9 @@ code {
     display: flex;
     margin-top: 2rem;
   }
+
   .cal.content {
     display: block;
-    
   }
 
   .calculator-container {
