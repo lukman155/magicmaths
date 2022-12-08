@@ -1,0 +1,126 @@
+body {
+  margin: 0 auto;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 780px;
+}
+
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
+    monospace;
+}
+
+@media only screen and (min-width: 240px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 2rem;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+  }
+
+  li {
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+
+  li:hover {
+    color: rgb(0, 255, 0);
+    cursor: pointer;
+  }
+
+  .vertical-line {
+    border-left: 0.1rem solid rgb(75, 75, 75);
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2rem;
+    padding: 0;
+  }
+
+  .content > p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  div > div > div {
+    font-size: 1.4rem;
+  }
+
+  .cal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .calculator-container {
+    padding: 1rem;
+    margin: 0;
+    border-radius: 1rem;
+  }
+
+  .calculator-container > * {
+    border-radius: 2rem;
+    margin: 0.16rem;
+  }
+
+  .calculator-container > *:hover {
+    border: 2px yellow solid;
+    color: rgb(5, 202, 5);
+    cursor: pointer;
+  }
+
+  /* STYLES HERE */
+}
+
+@media only screen and (min-width: 700px) {
+  /* STYLES HERE */
+
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+a {
+  /* text-transform: uppercase; */
+  font-size: 1.3rem;
+  color: #faa40f;
+}
+
+a:hover {
+  color: rgb(0, 185, 0);
+  cursor: pointer;
+}
