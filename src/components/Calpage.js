@@ -6,7 +6,7 @@ const Calpage = () => (
   <>
     <Header />
     <div className="cal-content">
-      <div className="content cal">
+      <div className="content">
         <p>Let&apos;s do some math!</p>
       </div>
       <Calculator />

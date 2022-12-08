@@ -6,11 +6,11 @@ const Header = () => (
     <h1>Math Magicians</h1>
     <nav>
       <ul>
-        <li><Link to="/">Home</Link></li>
+        <li><Link to="/" style={{ textDecoration: 'none' }}>Home</Link></li>
         <span className="vertical-line" />
-        <li><Link to="/calpage">Calculator</Link></li>
+        <li><Link to="/calpage" style={{ textDecoration: 'none' }}>Calculator</Link></li>
         <span className="vertical-line" />
-        <li><Link to="/quotepage"> Quote</Link></li>
+        <li><Link to="/quotepage" style={{ textDecoration: 'none' }}> Quote</Link></li>
       </ul>
     </nav>
   </div>

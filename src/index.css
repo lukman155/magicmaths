@@ -39,6 +39,7 @@ code {
   ul {
     display: flex;
     list-style-type: none;
+    text-decoration: none;
     margin: 0;
     padding: 0;
     gap: 1rem;
@@ -46,6 +47,7 @@ code {
 
   li {
     font-size: 1.2rem;
+    text-decoration: none;
   }
 
   li:hover {
@@ -71,13 +73,16 @@ code {
     text-align: center;
   }
 
-  .cal-content {
-    display: flex;
-    margin-top: 2rem;
+  div > div > div {
+    font-size: 1.4rem;
   }
 
-  .cal.content {
-    display: block;
+  .cal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
   }
 
   .calculator-container {
@@ -107,4 +112,15 @@ code {
     flex-direction: row;
     justify-content: space-between;
   }
+}
+
+a {
+  /* text-transform: uppercase; */
+  font-size: 1.3rem;
+  color: #faa40f;
+}
+
+a:hover {
+  color: rgb(0, 185, 0);
+  cursor: pointer;
 }
