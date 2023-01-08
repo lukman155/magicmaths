@@ -68,7 +68,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://magic-maths-react-app.onrender.com)
+- [Live Math Magic Link](https://math-magic-react-static.onrender.com)
 
 ## 🚀 Project Details 
 
