@@ -25,7 +25,7 @@
 
 # 📖 Maths with a bit of Magic <a name="about-project"></a>
 
-> In this project, a Web Application - magicmaths is built using React that performs general mathematical calculations and offer a host of other functionality. The webapp have 3 user interfaces.
+> In this project, a Web Application - magicmaths is built using React that performs general mathematical calculations and offer a host of other functionality. The webapp has 3 user interfaces.
 
 - ## Description - To Be Announced (TBA)
 
